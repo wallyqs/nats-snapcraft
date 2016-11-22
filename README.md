@@ -26,7 +26,6 @@ gnatsd 0.9.4 installed
 
 ```sh
 which gnatsd
-
 /snap/bin/gnatsd
 
 gnatsd
