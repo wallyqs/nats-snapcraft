@@ -1,11 +1,11 @@
-name: gnatsd
+name: nats-server
 version: "0.9.4"
 summary: "High-Performance server for NATS"
 description: "High-Performance server for NATS, the cloud native messaging system"
 confinement: strict
 
 apps:
-  gnatsd:
+  nats-server:
     command: gnatsd-v0.9.4-linux-amd64/gnatsd
     plugs: [network-bind]
 
